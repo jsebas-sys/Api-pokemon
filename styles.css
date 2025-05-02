@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+  }
+  
+  .pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pokemon-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .pokemon-card:hover {
+    transform: scale(1.03);
+  }
+  
+
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    display: block;
+    color: #888;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+  }
+  
+
+  h2 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+
+  .types {
+    margin-top: 5px;
+  }
+  
+  .type {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    color: white;
+    margin: 2px;
+    font-weight: 500;
+  }
+  
+ 
+  .planta {
+    background-color: #78C850;
+  }
+  
+  .veneno {
+    background-color: #A040A0;
+  }
+  
+  .fuego {
+    background-color: #F08030;
+  }
+  
+  .agua {
+    background-color: #6890F0;
+  }
+  
+  .volador {
+    background-color: #A890F0;
+  }
+  
+  .bicho {
+    background-color: #A8B820;
+  }
+  
